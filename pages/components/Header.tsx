@@ -4,6 +4,7 @@ import { useDisclosure } from '@mantine/hooks';
 import classes from './HeaderSimple.module.css';
 import Image from 'next/image'
 
+
 const links = [
   { link: '/projects', label: 'Projects' },
   { link: '/resume', label: 'Resume' },

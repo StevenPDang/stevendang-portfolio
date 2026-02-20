@@ -6,8 +6,9 @@
 }
 
 .content {
-  max-width: 480px;
+  flex: 1;
   margin-right: calc(var(--mantine-spacing-xl) * 3);
+  width: max-content;
 
   @media (max-width: $mantine-breakpoint-md) {
     max-width: 100%;
@@ -47,4 +48,8 @@
   background-color: var(--mantine-color-blue-light);
   border-radius: var(--mantine-radius-sm);
   padding: 4px 12px;
+}
+
+.text {
+  color:azure;
 }
